@@ -1,0 +1,83 @@
+* {
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+}
+
+#bannerimage {
+    background-image: url(#bannerimage);
+    background-color: purple;
+    background-position: center;
+    background-size: 150px;
+    width: 100%;
+    height: auto;
+    opacity: 0.7;
+  }
+
+  .container {
+    position: relative;
+    text-align: center;
+    color: white;
+  }
+
+  .centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 450%;
+    color: #808080;
+  }
+
+  .slogan {
+    position: absolute;
+    top: 75%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 150%;
+    color: #808080;
+  }
+
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  /* Change the link color to #111 (black) on hover */
+  li a:hover {
+    background-color: #111;
+  }
+
+  .article1 {
+      text-align: center;
+      font-size:xx-large;
+
+  }
+
+  p {
+      text-align: center;
+  }
+
+  .img2 {
+    object-position: center;
+    opacity: 0.7;
+    position: absolute;
+    top: 117%;
+    left: 25%;
+    right: 25%
+  }
+
+  
